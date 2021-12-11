@@ -12,18 +12,18 @@
 
 ### System
 2. [ ] mamolinux-artwork
-3. [ ] mamolinux-settings
+3. [x] mamolinux-settings
 4. [ ] plymouth
 	1. [ ] plymouth-theme-mamolinux-text
 	2. [ ] plymouth-theme-mamolinux-logo
 	3. [ ] plymouth-theme-spinner
 
 ### Themes
-1. [ ] mamolinux-wallpapers
+1. [x] mamolinux-wallpapers
 2. [x] Sucharu Cursors(mamolinux-cursors)
 3. [x] Sucharu Themes(mamolinux-themes)
 4. [ ] Sucharu Icons(mamolinux-icons)
-5. [ ] Sucharu Sound(mamolinux-sounds)
+5. [ ] Sucharu Sound(mamolinux-sounds) uses yaru sounds
 
 
 ## References
