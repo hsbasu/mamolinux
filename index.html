@@ -4,24 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Mamolinux</title>
-    
-    <!-- Stylesheets -->
-    <link href="https://hsbasu.github.io/styles/css-styles/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/dark-styles.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/responsive_navbar.css" rel="stylesheet" type="text/css">
-    <link href="https://hsbasu.github.io/styles/css-styles/responsive_sections.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atom-one-light.min.css" rel="stylesheet" type="text/css">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" rel="stylesheet" type="text/css"> -->
-    
-    <!-- Scripts -->
-	  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" charset="utf-8"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/javascript.min.js" charset="utf-8"></script> -->
-    <script src="https://hsbasu.github.io/styles/jscripts/header.js"></script>
-    <script src="https://hsbasu.github.io/styles/jscripts/footer.js"></script>
-    <script src="https://hsbasu.github.io/styles/jscripts/navbar.js"></script>
+    <script src="https://hsbasu.github.io/styles/jscripts/head.js"></script>
   </head>
 	
   <body>
@@ -36,80 +19,131 @@
     <section>
       <div id="articles" class="article-content">
         <template type="markdown">
-          # [MamoLinux](https://hsbasu.github.io/mamolinux)
+# [MamoLinux](https://hsbasu.github.io/mamolinux)
 
-          In Sanskrit, *Mamo* means *My*. In a world full of OSes like Windows, Mac, or android, a laptop/computer cannot be called **my Laptop/computer/phone** unless I have full control over it both in software and hardware regime. Such freedom can only be enjoyed on Linux based OSes. Many Ubuntu/Debian-based OSes have been able create an user-friendly OS environment for intermediate computer users. However, they're still far more intimidating to my Li'l sister and Gramps compared to Windows.
-          MamoLinux is a customized Linux-based(Ubuntu) Operating System and aims to achieve features like:
-          1. Free-ness (As in Freedom) of Linux,
-          2. User-friendliness of MS Windows,
-          3. Beauty and elegance of Mac or OS-X
-          
-          ### Pre-installed GUI Apps
-          1. [x] [Battery Monitor](https://github.com/hsbasu/battery-monitor)
-          2. [ ] [LeapTime Manager](https://github.com/hsbasu/leaptime-manager)
-          3. [x] [Simple Password Generator](https://github.com/hsbasu/simple-pwgen)
-          4. [x] [Theme Manager](https://github.com/hsbasu/theme-manager)
-          5. [x] [WebApp Manager](https://github.com/hsbasu/webapp-manager)
-          
-          ### Meta-Packages
-          1. [ ] [MamoLinux Meta source-package](https://github.com/hsbasu/mamolinux-meta)
-              1. [ ] Mamolinux LiveCD
-              2. [ ] Mamolinux Minimal Desktop
-              3. [ ] Mamolinux Desktop
-              4. [ ] Mamolinux Desktop Full
-          
-          ### System
-          1. [x] [Mamolinux Settings](https://github.com/hsbasu/mamolinux-settings)
-          7. [x] [plymouth](https://github.com/hsbasu/mamolinux-plymouth) - Plymouth themes for MamoLinux
-            1. [x] plymouth-theme-mamolinux-text
-            2. [x] plymouth-theme-mamolinux-logo - provided as ubuntu-logo with our own logo
-            3. [x] plymouth-theme-spinner
-          
-          ### ThemesThemes and Artwork
-          1. [x] [Wallpapers](https://github.com/hsbasu/mamolinux-wallpapers) - Wallpapers for MamoLinux
-          2. [ ] mamolinux-artwork - Artworks like logo, welcome slides, Installation slideshow etc.
-          3. [x] [Sucharu Cursors](https://github.com/hsbasu/mamolinux-cursors) - Cursor theme for MamoLinux
-          4. [x] [Sucharu Themes](https://github.com/hsbasu/mamolinux-themes) - Desktop theme for MamoLinux
-              1. [ ] Sucharu GTK themes
-                  1. [x] 2.0
-                  2. [x] 3.0
-                  3. [ ] 3.20
-                  4. [ ] 4.0
-              2. [x] Metacity
-              3. [ ] DE specific
-                  1. [ ] gnome-shell
-                  2. [x] cinnamon
-                  3. [ ] Xfwm
-                  4. [ ] KDE
-          5. [ ] [Sucharu Icons](https://github.com/hsbasu/mamolinux-icons) - Icon theme for MamoLinux
-              1. [ ] 3D Icons
-              2. [ ] Flat Icons
-          6. [ ] [Sucharu Sound](https://github.com/hsbasu/mamolinux-sounds) uses yaru sounds - Sound theme for MamoLinux
-          
-          ## References
-          [Link to Ubuntu mini ISO](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot)
-          
-          [How to use Ubuntu Base as base for custom ubuntu](https://wiki.ubuntu.com/Base)
-          
-          [An worked out example for Ubuntu Base](https://wiki.ubuntu.com/Base/InstallationExample)
-          
-          ## Contributors
+In Sanskrit, *Mamo* means *My*. In a world full of OSes like Windows, Mac, or android, a laptop/computer cannot be called **my Laptop/computer/phone** unless I have full control over it both in software and hardware regime. Such freedom can only be enjoyed on Linux based OSes. Many Ubuntu/Debian-based OSes have been able create an user-friendly OS environment for intermediate computer users. However, they're still far more intimidating to my Li'l sister and Gramps compared to Windows.
+MamoLinux is a customized Linux-based(Ubuntu) Operating System and aims to achieve features like:
+1. Free-ness (As in Freedom) of Linux,
+2. User-friendliness of MS Windows,
+3. Beauty and elegance of Mac or OS-X
 
-          ### [Himadri Sekhar Basu](https://hsbasu.github.io)
-          Current Maintainer.
-          
-          ## Donations
-          I am a freelance programmer. So, If you like this OS and would like to offer me a coffee ( &#9749; ) to motivate me further, you can do so via:
-          
-          <a class="badges" href="https://liberapay.com/hsbasu/donate" target="_blank">
-            <img src="https://liberapay.com/assets/widgets/donate.svg" alt="Donate using Liberapay">
-          </a>
-          <a class="badges" href="https://paypal.me/hsbasu" target="_blank">
-            <img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.svg" alt="Donate using PayPal">
-          </a>
-          <a class="badges" href="https://hsbasu.github.io/images/upi-qr.jpg" target="_blank">
-            <img src ="https://hsbasu.github.io/styles/icons/logo/svg/upi-logo.svg" alt="Paytm UPI">
-          </a>
+## Contents
+- [Download ISO](#download-iso)
+	- [Latest Release](#latest-release)
+	- [Latest LTS Release](#latest-lts-release)
+- [Features and Screenshots](#features-and-screenshots)
+
+## Download ISO
+
+### Latest Release
+<div class="w3-center infobox">
+  <div class="w3-left" style="width: 50%;">
+    <h4>Information</h4>
+    <ul class="list-group">
+      <li class="list-group-item"><i class="fas fa-file-download fa-fw text-info" style="color: #17a2b8;"></i>Size: 4.4 GB (4,40,42,28,096 bytes)</li>
+      <li class="list-group-item"><i class="fas fa-book-open fa-fw text-success" style="color: #28a745;"></i><a href="#" target="_blank">Installation Guide</a></li>
+      <li class="list-group-item"><i class="fas fa-bullhorn fa-fw text-success" style="color: #28a745;"></i><a href="#" target="_blank">Release Announcement</a></li>
+      <li class="list-group-item"><i class="fas fa-map-signs fa-fw text-warning" style="color: #ffc107;"></i><a href="#">Release Notes</a></li>
+      <li class="list-group-item"><i class="fas fa-map-signs fa-fw text-warning" style="color: #ffc107;"></i><a href="https://sourceforge.net/projects/mamolinux/files/jammy/mamolinux-22.04.3-desktop-amd64.iso.sha256/download">Sha256: 92e427aacf852664b6eaa20d349b434f6edec6d31985ca8ca1b81953b6ac7a4c</a></li>
+      <li class="list-group-item"><i class="fas fa-bolt fa-fw text-danger" style="color: #dc3545;"></i>Torrent Download: <a href="#">64-bit</a>
+      </li>
+      <li class="list-group-item"><a class="buttn" href="https://sourceforge.net/projects/mamolinux/files/latest/download"><i class="fa fa-compact-disc fa-spin" style="color: #dc3545;"></i> Download MamoLinux 22.04.3 LTS amd64 (.iso)</a></li>
+    </ul>
+  </div>
+  <div class="w3-right" style="max-width: 45%;">
+    <p class="w3-center"><img src="screenshots/cinnamon-desktop.png" alt="cinnamon-desktop"></p>
+  </div>
+</div>
+
+### Latest LTS Release
+<div class="w3-center infobox">
+  <div class="w3-left" style="width: 50%;">
+    <h4>Information</h4>
+    <ul>
+      <li class="list-group-item"><i class="fas fa-file-download fa-fw text-info" style="color: #17a2b8;"></i> Size: 4.4 GB (4,40,42,28,096 bytes)</li>
+      <li class="list-group-item"><i class="fas fa-book-open fa-fw text-success" style="color: #28a745;"></i> <a href="#" target="_blank">Installation Guide</a></li>
+      <li class="list-group-item"><i class="fas fa-bullhorn fa-fw text-success" style="color: #28a745;"></i> <a href="#" target="_blank">Release Announcement</a></li>
+      <li class="list-group-item"><i class="fas fa-map-signs fa-fw text-warning" style="color: #ffc107;"></i> <a href="#">Release Notes</a></li>
+      <li class="list-group-item"><i class="fas fa-map-signs fa-fw text-warning" style="color: #ffc107;"></i><a href="https://sourceforge.net/projects/mamolinux/files/jammy/mamolinux-22.04.3-desktop-amd64.iso.sha256/download"> Sha256: 92e427aacf852664b6eaa20d349b434f6edec6d31985ca8ca1b81953b6ac7a4c</a></li>
+      <li class="list-group-item"><i class="fas fa-bolt fa-fw text-danger" style="color: #dc3545;"></i> Torrent Download: <a href="#">64-bit</a>
+      </li>
+      <li class="list-group-item"><a class="buttn" href="https://sourceforge.net/projects/mamolinux/files/jammy/mamolinux-22.04.3-desktop-amd64.iso/download"><i class="fa fa-compact-disc fa-spin" style="color: #dc3545;"></i> Download MamoLinux 22.04.3 LTS amd64 (.iso)</a></li>
+    </ul>
+  </div>
+  <div class="w3-right" style="max-width: 45%;">
+    <p class="w3-center"><img src="screenshots/cinnamon-desktop.png" alt="cinnamon-desktop"></p>
+  </div>
+  <!-- <div class="w3-center vline"></div> -->
+</div>
+
+## Features and Screenshots
+
+### Pre-installed GUI Apps
+1. [x] [Battery Monitor](https://github.com/hsbasu/battery-monitor)
+2. [ ] [LeapTime Manager](https://github.com/hsbasu/leaptime-manager)
+3. [x] [Simple Password Generator](https://github.com/hsbasu/simple-pwgen)
+4. [x] [Theme Manager](https://github.com/hsbasu/theme-manager)
+5. [x] [WebApp Manager](https://github.com/hsbasu/webapp-manager)
+
+### Meta-Packages
+1. [ ] [MamoLinux Meta source-package](https://github.com/hsbasu/mamolinux-meta)
+    1. [ ] Mamolinux LiveCD
+    2. [ ] Mamolinux Minimal Desktop
+    3. [ ] Mamolinux Desktop
+    4. [ ] Mamolinux Desktop Full
+
+### System
+1. [x] [Mamolinux Settings](https://github.com/hsbasu/mamolinux-settings)
+7. [x] [plymouth](https://github.com/hsbasu/mamolinux-plymouth) - Plymouth themes for MamoLinux
+  1. [x] plymouth-theme-mamolinux-text
+  2. [x] plymouth-theme-mamolinux-logo - provided as ubuntu-logo with our own logo
+  3. [x] plymouth-theme-spinner
+
+### ThemesThemes and Artwork
+1. [x] [Wallpapers](https://github.com/hsbasu/mamolinux-wallpapers) - Wallpapers for MamoLinux
+2. [ ] mamolinux-artwork - Artworks like logo, welcome slides, Installation slideshow etc.
+3. [x] [Sucharu Cursors](https://github.com/hsbasu/mamolinux-cursors) - Cursor theme for MamoLinux
+4. [x] [Sucharu Themes](https://github.com/hsbasu/mamolinux-themes) - Desktop theme for MamoLinux
+    1. [ ] Sucharu GTK themes
+        1. [x] 2.0
+        2. [x] 3.0
+        3. [ ] 3.20
+        4. [ ] 4.0
+    2. [x] Metacity
+    3. [ ] DE specific
+        1. [ ] gnome-shell
+        2. [x] cinnamon
+        3. [ ] Xfwm
+        4. [ ] KDE
+5. [ ] [Sucharu Icons](https://github.com/hsbasu/mamolinux-icons) - Icon theme for MamoLinux
+    1. [ ] 3D Icons
+    2. [ ] Flat Icons
+6. [ ] [Sucharu Sound](https://github.com/hsbasu/mamolinux-sounds) uses yaru sounds - Sound theme for MamoLinux
+
+## References
+[Link to Ubuntu mini ISO](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot)
+
+[How to use Ubuntu Base as base for custom ubuntu](https://wiki.ubuntu.com/Base)
+
+[An worked out example for Ubuntu Base](https://wiki.ubuntu.com/Base/InstallationExample)
+
+## Contributors
+
+### [Himadri Sekhar Basu](https://hsbasu.github.io)
+Current Maintainer.
+
+## Donations
+I am a freelance programmer. So, If you like this OS and would like to offer me a coffee ( &#9749; ) to motivate me further, you can do so via:
+
+<a class="badges" href="https://liberapay.com/hsbasu/donate" target="_blank">
+  <img src="https://liberapay.com/assets/widgets/donate.svg" alt="Donate using Liberapay">
+</a>
+<a class="badges" href="https://paypal.me/hsbasu" target="_blank">
+  <img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.svg" alt="Donate using PayPal">
+</a>
+<a class="badges" href="https://hsbasu.github.io/images/upi-qr.jpg" target="_blank">
+  <img src ="https://hsbasu.github.io/styles/icons/logo/svg/upi-logo.svg" alt="Paytm UPI">
+</a>
         </template>
       </div>
     </section>
