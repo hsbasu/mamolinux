@@ -5,48 +5,41 @@ MamoLinux is a customized Linux-based(Ubuntu) Operating System and aims to achie
 1. Free-ness (As in Freedom) of Linux,
 2. User-friendliness of MS Windows,
 3. Beauty and elegance of Mac or OS-X
+## Contents
+- [Download ISO](#download-iso)
+	- [Latest Interim Release](#latest-interim-release)
+	- [Latest LTS Release](#latest-lts-release)
+- [Features and Screenshots](#features-and-screenshots)
+    - [Recommended GUI Apps](#recommended-gui-apps)
 
-### Pre-installed GUI Apps
-1. [x] [Battery Monitor](https://github.com/hsbasu/battery-monitor)
-2. [ ] [LeapTime Manager](https://github.com/hsbasu/leaptime-manager)
-3. [x] [Simple Password Generator](https://github.com/hsbasu/simple-pwgen)
-4. [x] [Theme Manager](https://github.com/hsbasu/theme-manager)
-5. [x] [WebApp Manager](https://github.com/hsbasu/webapp-manager)
+## Download ISO
 
-### Meta-Packages
-1. [ ] [MamoLinux Meta source-package](https://github.com/hsbasu/mamolinux-meta)
-    1. [ ] Mamolinux LiveCD
-    2. [ ] Mamolinux Minimal Desktop
-    3. [ ] Mamolinux Desktop
-    4. [ ] Mamolinux Desktop Full
+### Latest Interim Release
+- [Download MamoLinux 23.10 amd64 from SourceForge](https://sourceforge.net/projects/mamolinux/files/23.10/mamolinux-23.10-desktop-amd64.iso/download)
+- [Download MamoLinux 23.10 amd64 from Google Drive](https://drive.google.com/drive/folders/1nUhJ1npCmLhEGhQjcz4zY_XzKu26gpp9)
 
-### System
-1. [x] [Mamolinux Settings](https://github.com/hsbasu/mamolinux-settings)
-7. [x] [plymouth](https://github.com/hsbasu/mamolinux-plymouth) - Plymouth themes for MamoLinux
-	1. [x] plymouth-theme-mamolinux-text
-	2. [x] plymouth-theme-mamolinux-logo - provided as ubuntu-logo with our own logo
-	3. [x] plymouth-theme-spinner
+### Latest LTS Release
+- [Download MamoLinux 22.04.3 LTS amd64 from SourceForge](https://sourceforge.net/projects/mamolinux/files/22.04/mamolinux-22.04.3-desktop-amd64.iso/download)
+- [Download MamoLinux 22.04.3 LTS amd64 from Google Drive](https://drive.google.com/drive/folders/1ATWy8c6MnX8bmjNQGrg0adI1tms0YN4K)
 
-### ThemesThemes and Artwork
-1. [x] [Wallpapers](https://github.com/hsbasu/mamolinux-wallpapers) - Wallpapers for MamoLinux
-2. [ ] mamolinux-artwork - Artworks like logo, welcome slides, Installation slideshow etc.
-3. [x] [Sucharu Cursors](https://github.com/hsbasu/mamolinux-cursors) - Cursor theme for MamoLinux
-4. [x] [Sucharu Themes](https://github.com/hsbasu/mamolinux-themes) - Desktop theme for MamoLinux
-    1. [ ] Sucharu GTK themes
-        1. [x] 2.0
-        2. [x] 3.0
-        3. [ ] 3.20
-        4. [ ] 4.0
-    2. [x] Metacity
-    3. [ ] DE specific
-        1. [ ] gnome-shell
-        2. [x] cinnamon
-        3. [ ] Xfwm
-        4. [ ] KDE
-5. [ ] [Sucharu Icons](https://github.com/hsbasu/mamolinux-icons) - Icon theme for MamoLinux
-    1. [ ] 3D Icons
-    2. [ ] Flat Icons
-6. [ ] [Sucharu Sound](https://github.com/hsbasu/mamolinux-sounds) uses yaru sounds - Sound theme for MamoLinux
+## Features and Screenshots
+
+1. Features Latest Cinnamon 6.0
+2. Based on Latest Ubuntu 23.10 Mantic
+3. An all new system monitor
+4. The new flutter-based app-center by Ubuntu
+5. Need additional important softwares? Just check the app selection boxes during OS installation. They will be installed from apt repositories during installation. This reduces setup time of new machines.
+<p  align="center">
+  <img src="https://raw.githubusercontent.com/hsbasu/mamolinux/gh-pages/screenshots/base-ubuntu-latesr-with-cinnamon.png" alt="base-ubuntu-latesr-with-cinnamon" style="max-width: 45%;">
+  <img src="https://raw.githubusercontent.com/hsbasu/mamolinux/gh-pages/screenshots/all-in-one-system-monitor.png" alt="all-in-one-system-monitor" style="max-width: 45%;">
+  <img src="https://raw.githubusercontent.com/hsbasu/mamolinux/gh-pages/screenshots/flutter-app-center.png" alt="flutter-app-center" style="max-width: 45%;">
+</p>
+
+### Recommended GUI Apps
+1. [Battery Monitor](https://github.com/hsbasu/battery-monitor) (Monitors laptop battery)
+2. [LeapTime Manager](https://github.com/hsbasu/leaptime-manager) (Aiming to be an all-in-one backup manager)
+3. [Simple Password Generator](https://github.com/hsbasu/simple-pwgen)
+4. [Theme Manager](https://github.com/hsbasu/theme-manager) (Pre-installed)
 
 ## References
 [Link to Ubuntu mini ISO](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot)
